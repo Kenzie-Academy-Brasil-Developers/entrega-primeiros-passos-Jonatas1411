@@ -46,7 +46,7 @@ function verificaParImpar(numero){
 let precoRefrigerante = parseFloat(prompt("Digite o valor do refrigerante")) 
 let quantidadeRefri = parseInt(prompt("Quantas Unidades ?"))
 
-total = Refrigerante * quantidadeRefri
+total = Refrigerante * quantidadeRefri 
 
 alert(`Valor total a ser pago: ${total}`)
 
@@ -85,12 +85,22 @@ let quantidadeVinho = parseInt(prompt("Quantas Unidades ?"))
 
 total = Vinho * quantidadeVinho
 
+
+
 alert(`Valor total a ser pago: ${total}`)
+
+let valorTotal = []
+
+total = valorTotalRefri + valorTotalMacarrao + valorTotalErvilha + valorTotalArroz + valorTotalFeijao + valorTotalVinho;
+
+ 
+alert (`Valor total da compra: ${total}`)
 
 
 
 }
 verificaParImpar(total)
+
 
 
 
