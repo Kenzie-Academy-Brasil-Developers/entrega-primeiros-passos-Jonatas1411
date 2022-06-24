@@ -43,8 +43,56 @@ function verificaParImpar(numero){
     
     }
 
+let precoRefrigerante = parseFloat(prompt("Digite o valor do refrigerante")) 
+let quantidadeRefri = parseInt(prompt("Quantas Unidades ?"))
+
+total = Refrigerante * quantidadeRefri
+
+alert(`Valor total a ser pago: ${total}`)
+
+let precoMacarrao = parseFloat(prompt("Digite o valor do macarrão"))
+let quantidadeMacarrao = parseInt(prompt("Quantas Unidades ?"))
+
+total = Macarrao * quantidadeMacarrao
+
+alert (`Valor total a ser pago: ${total}`)
+
+
+
+let precoErvilha = parseFloat(prompt("Digite o valor da ervilha"))
+let quantidadeErvilha = parseInt(prompt("Quantas Unidades ?"))
+
+total = Ervilha * quantidadeErvilha
+
+alert(`Valor total a ser pago: ${total}`)
+
+let precoArroz = parseFloat(prompt("Digite o valor do arroz"))
+let quantidadeArroz = parseInt(prompt("Quantas Unidades ?"))
+
+total = Arroz * quantidadeArroz
+
+alert(`Valor total a ser pago: ${total}`)
+
+let precoFeijao = parseFloat(prompt("Digite o valor do feijão"))
+let quantidadeFeijao = parseInt(prompt("Quantas Unidades ?"))
+
+total = Feijao * quantidadeFeijao
+
+alert(`Valor total a ser pago: ${total}`)
+
+let precoVinho  = parseFloat(prompt("Digite o valor do vinho"))
+let quantidadeVinho = parseInt(prompt("Quantas Unidades ?"))
+
+total = Vinho * quantidadeVinho
+
+alert(`Valor total a ser pago: ${total}`)
+
+
+
 }
 verificaParImpar(total)
+
+
 
 
 
